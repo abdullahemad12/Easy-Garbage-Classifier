@@ -22,6 +22,21 @@ Due to the time constraints, we have only decided to work on the garbage classif
 Which, given a photo of a single item, classifies them as one of the 6 classes.The training of the model was done on 
 google colab to make use of GPU accelerator. We achieved an accuracy of ~85% on the training data set and ~80% on the testing dataset.
 
+## Run 
+
+To run this project you need the following requirments
+
+1. Numpy
+2. Tensorflow 
+3. Pillow
+4. Keras
+5. tkinter
+6. OpenCV 
+
+Run the following command to start up the project
+
+python gui.py
+
 ## Future Work 
 
 1. Object detection on picture with many items 
